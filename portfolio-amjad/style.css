@@ -3,6 +3,7 @@
     margin: 0;
     outline: none;
     border: none;
+    text-decoration: none;
 }
 
 body { 
@@ -12,10 +13,7 @@ body {
   padding: 0; 
 }
 
-
-#hero {
-    height: 100vh; 
-}
+ 
 
 header {
     display: flex; 
@@ -115,12 +113,7 @@ h1 span {
     justify-content: center;
     gap: 40px;
 }
-
-.hero-img {
-    width: 450px;
-    height: 660px;
-    margin-left: 40px;
-}
+ 
 
 .cta-section{
     display: flex;
@@ -139,7 +132,8 @@ h1 span {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px rgba(118, 123, 134, 0.9);
+    box-shadow: 10px 10px 10px rgba(118, 123, 134, 0.9); 
+    transition: 0.4s;
 }
 
 .cta-1 {
@@ -154,7 +148,7 @@ h1 span {
 }
 
 .cta-section button:hover{
-    background-color:rgb(133, 40, 255);
+    background-color: rgb(75, 25, 141) ;
     color: white;
 }
 
@@ -521,3 +515,49 @@ h1 span {
     transform: translateY(0);
   }
 }
+
+ 
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-card {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 900px;
+  height: 300px;
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-item .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact-item:not(:last-child) {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+}
+ 
