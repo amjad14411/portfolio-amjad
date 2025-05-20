@@ -6,16 +6,7 @@
     text-decoration: none;  
      box-sizing: border-box ;
 }
-:root {
-  --primary: #19b4a3;
-  --highlight: #13bfa6;
-  --nav-link: #222;
-  --text-dark: #222;
-  --text-grey: #6a7780;
-  --btn-bg: #2ab9a8;
-  --btn-hover: #139f8b;
-  --bg: #f6f7fb;
-}
+ 
 
  
 html, body {
